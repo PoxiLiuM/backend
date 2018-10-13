@@ -1,5 +1,5 @@
 var express = require('express');
-const port = '8080'
+const port = require('./config.js').SERVER_PORT;
 
 var app = express();
 
